@@ -1,12 +1,12 @@
-name: My Project Timeline
-baseurl: /project-timeline
+name: AngelaLau.net Timeline
+baseurl: /angelalau-timeline
 permalink: /:year/:month/:day/:title
 pygments: true
 linked_posts: true
 excerpt_separator: "\n\n\n"
 
 # To enable Disqus comments, set disqus to true in page front matter
-disqus_shortname: SHORTNAME
+disqus_shortname: angelalaunet-pt
 
 # Sets the default folder in Prose.io
 # Sets the default metadata in Prose.io
