@@ -89,8 +89,6 @@ h3 {
   padding-left: 1em;
   margin-bottom: 3em;
   position: relative; }
-  .tl-node a {
-    display: block; }
   .tl-node:before {
     content: "";
     position: absolute;
