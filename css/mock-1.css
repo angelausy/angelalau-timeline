@@ -27,11 +27,15 @@ body {
 }
 
 .container {
-	margin: 15px;
+	margin: 1.5em;
 }
 
 .project {
-	margin-left: 5px;
+	margin-left: 0.5em;
+}
+
+.project + .project {
+	margin-top: 1.5em;
 }
 
 .tagline {
@@ -41,6 +45,10 @@ body {
 .project-name {
 	font-size: 2.2em;
 	font-family: "HelveticaNeue", "Helvetica", "Verdana", sans-serif;
+	margin-top: 1.63636363em;
+	margin-top: calc(24 * 1.5 * 1em / 22);
+	margin-bottom: 0.5454545em;
+	margin-bottom: calc(24 * 0.5 * 1em / 22);
 	word-wrap: break-word;
 }
 
@@ -64,11 +72,22 @@ body {
 	}
 	.container {
 		width: 900px;
-		margin: 60px auto;
+		margin: 72px auto;
 	}
 
 	.project {
 		margin-left: 300px;
+	}
+
+	.project + .project {
+		margin-top: 72px;
+	}
+
+	.project-name {
+		margin-top: 1.6494140625em;
+		margin-top: calc(26.390625 * 1.5 * 1em / 24);
+		margin-bottom: 0.5498046875em;
+		margin-bottom: calc(26.390625 * 0.5 * 1em / 24);
 	}
 
 	.project-body p {
