@@ -1,0 +1,81 @@
+/************Reset**************/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body, div, object, iframe, fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+header, footer, nav, section, article, hgroup, figure {
+  display: block; }
+
+/************End Reset**************/
+
+body {
+  background: #fff;
+  color: #222222;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 10px;
+}
+
+.container {
+	margin: 15px;
+}
+
+.project {
+	margin-left: 5px;
+}
+
+.tagline {
+	font-style: italic;
+}
+
+.project-name {
+	font-size: 2.2em;
+	font-family: "HelveticaNeue", "Helvetica", "Verdana", sans-serif;
+	word-wrap: break-word;
+}
+
+.project-body, .project-status {
+	font-size: 1.6em;
+	line-height: 1.5em;
+}
+
+.project-body p {
+	text-indent: 2em;
+	text-align: justify;
+}
+
+.project-status {
+	margin-left: 2em;
+}
+
+@media screen and (min-width: 1200px) {
+	body {
+	  font-size: 11px;
+	}
+	.container {
+		width: 900px;
+		margin: 60px auto;
+	}
+
+	.project {
+		margin-left: 300px;
+	}
+
+	.project-body p {
+		text-indent: 2.5em;
+	}
+
+	.project-status {
+		margin-left: 2.5em;
+	}
+}
