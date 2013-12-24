@@ -3,6 +3,7 @@ baseurl: /project-timeline
 permalink: /:year/:month/:day/:title
 pygments: true
 linked_posts: true
+excerpt_separator: "\n\n\n"
 
 # Sets the default folder in Prose.io
 # Sets the default metadata in Prose.io
