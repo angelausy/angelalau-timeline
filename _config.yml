@@ -5,6 +5,9 @@ pygments: true
 linked_posts: true
 excerpt_separator: "\n\n\n"
 
+# To enable Disqus comments, set disqus to true in page front matter
+disqus_shortname: SHORTNAME
+
 # Sets the default folder in Prose.io
 # Sets the default metadata in Prose.io
 prose:
