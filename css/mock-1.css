@@ -89,6 +89,8 @@ body {
 	}
 
 	.project-name {
+		font-size: 2.08695652174em;
+		font-size: calc(24 * 1em / 11.5);
 		margin-top: 1.71428571em;
 		margin-top: calc(24 * 1.5 * 1em / 21);
 		margin-bottom: 0.57142857em;
@@ -132,6 +134,24 @@ body {
 	.container {
 		margin: 6.2608695652em 18.7826086957em 6.2608695652em auto;
 		margin: calc(72 * 1em / 11.5) calc(72 * 3em / 11.5) calc(72 * 1em / 11.5) auto;
+	}
+
+}
+
+@media screen and (min-width: 1080px) {
+
+	.container {
+		margin: 6.2608695652em 25.0434782609em 6.2608695652em auto;
+		margin: calc(72 * 1em / 11.5) calc(72 * 4em / 11.5) calc(72 * 1em / 11.5) auto;
+	}
+
+}
+
+@media screen and (min-width: 1224px) {
+
+	.container {
+		margin: 6.2608695652em 31.3043478261em 6.2608695652em auto;
+		margin: calc(72 * 1em / 11.5) calc(72 * 5em / 11.5) calc(72 * 1em / 11.5) auto;
 	}
 
 }
