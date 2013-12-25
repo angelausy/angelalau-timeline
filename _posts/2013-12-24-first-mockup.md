@@ -9,5 +9,3 @@ Inspired by [vintage library catalog cards](http://www.brainpickings.org/2013/10
 
 
 An HTML mockup displaying basic layout.
-
-TODO: Use a grid!
