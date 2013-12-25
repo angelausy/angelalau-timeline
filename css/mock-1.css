@@ -34,7 +34,7 @@ body {
 	font-style: italic;
 }
 
-.project + .project {
+.project {
 	margin-top: 2.4em;
 }
 
@@ -69,7 +69,7 @@ body {
 		margin: 3.6em 3.6em 3.6em auto;
 	}
 
-	.project + .project {
+	.project {
 		margin-top: 3.6em;
 	}
 
@@ -97,7 +97,7 @@ body {
 		margin-bottom: calc(24 * 0.5 * 1em / 21);
 	}
 
-	.project + .project {
+	.project {
 		margin-top: 3.13043em;
 		margin-top: calc(36 * 1em / 11.5);
 	}
@@ -113,7 +113,7 @@ body {
 		margin: calc(72 * 1em / 11.5) calc(72 * 1em / 11.5) calc(72 * 1em / 11.5) auto;
 	}
 
-	.project + .project {
+	.project {
 		margin-top: 6.2608695652em;
 		margin-top: calc(72 * 1em / 11.5);
 	}
@@ -152,6 +152,15 @@ body {
 	.container {
 		margin: 6.2608695652em 31.3043478261em 6.2608695652em auto;
 		margin: calc(72 * 1em / 11.5) calc(72 * 5em / 11.5) calc(72 * 1em / 11.5) auto;
+	}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+	.container {
+		margin: 6.2608695652em auto;
+		margin: calc(72 * 1em / 11.5) auto;
 	}
 
 }
