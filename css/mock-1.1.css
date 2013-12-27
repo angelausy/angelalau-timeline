@@ -107,6 +107,8 @@ a {
 .project-body p {
 	text-indent: 2.8em;
 	text-align: justify;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 .project-status {
