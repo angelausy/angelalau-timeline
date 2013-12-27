@@ -162,13 +162,13 @@ a {
 	.container {
 		width: 43.8260869565em;
 		width: calc(504 * 1em / 11.5);
-		margin: 6.2608695652em 6.2608695652em 6.2608695652em auto;
-		margin: calc(72 * 1em / 11.5) calc(72 * 1em / 11.5) calc(72 * 1em / 11.5) auto;
+		margin: 12.5217391304em 6.2608695652em 12.5217391304em auto;
+		margin: calc(72 * 2em / 11.5) calc(72 * 1em / 11.5) calc(72 * 2em / 11.5) auto;
 	}
 
 	.project {
-		margin-top: 6.2608695652em;
-		margin-top: calc(72 * 1em / 11.5);
+		margin-top: 12.5217391304em;
+		margin-top: calc(72 * 2em / 11.5);
 	}
 
 }
@@ -176,8 +176,8 @@ a {
 @media screen and (min-width: 792px) {
 
 	.container {
-		margin: 6.2608695652em 12.5217391304em 6.2608695652em auto;
-		margin: calc(72 * 1em / 11.5) calc(72 * 2em / 11.5) calc(72 * 1em / 11.5) auto;
+		margin: 12.5217391304em 12.5217391304em 12.5217391304em auto;
+		margin: calc(72 * 2em / 11.5) calc(72 * 2em / 11.5) calc(72 * 2em / 11.5) auto;
 	}
 
 }
@@ -185,8 +185,8 @@ a {
 @media screen and (min-width: 936px) {
 
 	.container {
-		margin: 6.2608695652em 18.7826086957em 6.2608695652em auto;
-		margin: calc(72 * 1em / 11.5) calc(72 * 3em / 11.5) calc(72 * 1em / 11.5) auto;
+		margin: 12.5217391304em 18.7826086957em 12.5217391304em auto;
+		margin: calc(72 * 2em / 11.5) calc(72 * 3em / 11.5) calc(72 * 2em / 11.5) auto;
 	}
 
 }
@@ -194,8 +194,8 @@ a {
 @media screen and (min-width: 1080px) {
 
 	.container {
-		margin: 6.2608695652em 25.0434782609em 6.2608695652em auto;
-		margin: calc(72 * 1em / 11.5) calc(72 * 4em / 11.5) calc(72 * 1em / 11.5) auto;
+		margin: 12.5217391304em 25.0434782609em 12.5217391304em auto;
+		margin: calc(72 * 2em / 11.5) calc(72 * 4em / 11.5) calc(72 * 2em / 11.5) auto;
 	}
 
 }
@@ -203,8 +203,8 @@ a {
 @media screen and (min-width: 1224px) {
 
 	.container {
-		margin: 6.2608695652em 31.3043478261em 6.2608695652em auto;
-		margin: calc(72 * 1em / 11.5) calc(72 * 5em / 11.5) calc(72 * 1em / 11.5) auto;
+		margin: 12.5217391304em 31.3043478261em 12.5217391304em auto;
+		margin: calc(72 * 2em / 11.5) calc(72 * 5em / 11.5) calc(72 * 2em / 11.5) auto;
 	}
 
 }
@@ -212,8 +212,8 @@ a {
 @media screen and (min-width: 1440px) {
 
 	.container {
-		margin: 6.2608695652em auto;
-		margin: calc(72 * 1em / 11.5) auto;
+		margin: 12.5217391304em auto;
+		margin: calc(72 * 2em / 11.5) auto;
 	}
 
 }
