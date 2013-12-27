@@ -36,14 +36,15 @@ header, footer, nav, section, article, hgroup, figure {
 /************End Reset**************/
 
 body {
-  background: #FFF4D8;
+  background: #FFF8E7;
   color: #222222;
   font-family: "Quattrocento", "Georgia", "Times New Roman", serif;
   font-size: 10px;
+  border-top: 4px solid #0033B2;
 }
 
 a {
-	color: #5453B2;
+	color: #0033B2;
 }
 
 .container {
@@ -67,7 +68,7 @@ a {
 	margin-bottom: 0.5833333em;
 	margin-bottom: calc(21 * 0.5 * 1em / 18);
 	word-wrap: break-word;
-	border-bottom: 1px solid #5453B2;
+	border-bottom: 1px solid #0033B2;
 }
 
 .project-name a {
