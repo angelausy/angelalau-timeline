@@ -78,6 +78,27 @@ a {
 	position: relative;
 }
 
+.project-name a:after, .project-hub:before {
+	font-family: "icon";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	text-decoration: none;
+}
+
+.project-name a:after {
+	content: "\e600";
+	margin-left: 6px;
+}
+
+.project-hub:before {
+  content: "\e601";
+  margin-right: 4px;
+}
+
 .project-body, .project-status {
 	font-size: 1.4em;
 	line-height: 1.5em;
@@ -95,16 +116,7 @@ a {
 @media screen and (min-width: 320px) {
 	
 	.project-name a:after {
-		font-family: "icon";
-		speak: none;
-		font-style: normal;
-		font-weight: normal;
-		font-variant: normal;
-		line-height: 1.5;
-		text-transform: none;
-		-webkit-font-smoothing: antialiased;
-		text-decoration: none;
-		content: "\e600";
+    margin-left: 0;
 		position: absolute;
 		right: 0;
 	}
